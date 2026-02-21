@@ -1,0 +1,41 @@
+{
+    "id": "b7e42f3a-1c8d-4e56-a9f0-d2e834b671c5",
+    "name": "TI Custom Extension Tests",
+    "publisher": "TheIconic",
+    "version": "1.0.0.0",
+    "brief": "Tests for the BC reimplementation custom extension",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "416f4ded-0789-4fc8-b587-3289c4699484",
+            "name": "TI Custom Extension",
+            "publisher": "TheIconic",
+            "version": "1.0.0.0"
+        }
+    ],
+    "screenshots": [],
+    "platform": "26.0.0.0",
+    "application": "26.0.0.0",
+    "idRanges": [
+        {
+            "from": 80000,
+            "to": 89999
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "15.0",
+    "features": [
+        "NoImplicitWith",
+        "TranslationFile"
+    ],
+    "target": "Cloud"
+}

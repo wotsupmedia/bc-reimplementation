@@ -1,0 +1,42 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}"
+    ],
+    "al.enableCodeActions": true,
+    "al.backgroundCodeAnalysis": "Project",
+    "al.compilationOptions": {
+        "generateReportLayout": true
+    },
+    "al.packageCachePath": ".alpackages",
+    "al.assemblyProbingPaths": [
+        ".netpackages"
+    ],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-dynamics-smb.al",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.rulers": [120],
+    "editor.wordWrap": "off",
+    "editor.minimap.enabled": false,
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.ObjectNamePrefix": "",
+    "CRS.ObjectNameSuffix": "",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.OnSaveAlFileAction": "Rename",
+    "search.exclude": {
+        ".alpackages/**": true,
+        ".snapshots/**": true,
+        "**/*.xlf": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false
+}

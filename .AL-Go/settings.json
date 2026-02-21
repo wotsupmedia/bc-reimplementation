@@ -1,7 +1,14 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.2/.Modules/settings.schema.json",
-  "country": "us",
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": []
+    "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.2/.Modules/settings.schema.json",
+    "country": "au",
+    "appFolders": [
+        "app"
+    ],
+    "testFolders": [
+        "testapp"
+    ],
+    "bcptTestFolders": [],
+    "enableCodeCop": true,
+    "enableUICop": true,
+    "enablePerTenantExtensionCop": true
 }

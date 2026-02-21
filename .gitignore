@@ -19,3 +19,10 @@ rad.json
 .snapshots/
 cache_*
 ~$*
+
+# VS Code (personal settings — shared settings are in app/.vscode/settings.json)
+.vscode/launch.json
+.vscode/*.code-workspace
+
+# .NET packages
+.netpackages/

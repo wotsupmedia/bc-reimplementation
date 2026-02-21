@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "ms-dynamics-smb.al",
+        "ms-vscode.powershell",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "GitHub.copilot-chat",
+        "waldo.crs-al-language-extension",
+        "davidfeldhoff.al-codeactions",
+        "martonsagi.al-object-designer",
+        "GitHub.vscode-pull-request-github",
+        "ms-vscode.vscode-github-actions",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}

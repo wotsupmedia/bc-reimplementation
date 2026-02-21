@@ -1,0 +1,35 @@
+{
+    "id": "416f4ded-0789-4fc8-b587-3289c4699484",
+    "name": "TI Custom Extension",
+    "publisher": "TheIconic",
+    "version": "1.0.0.0",
+    "brief": "Custom functionality for the BC reimplementation project",
+    "description": "Contains all custom extensions for The Iconic Business Central SaaS reimplementation.",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "contextSensitiveHelpUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/",
+    "logo": "",
+    "dependencies": [],
+    "screenshots": [],
+    "platform": "26.0.0.0",
+    "application": "26.0.0.0",
+    "idRanges": [
+        {
+            "from": 50000,
+            "to": 59999
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "15.0",
+    "features": [
+        "NoImplicitWith",
+        "TranslationFile"
+    ],
+    "target": "Cloud"
+}
